@@ -51,7 +51,7 @@ test_labels = L_F.Load_label(opt.test_label, opt.dataroot)
 test_labels_onehot = H_F.Encode_onehot(test_labels, opt.nclass)
 
 print('loading trained model...')
-model = torch.load('./model/netF_16bits.pth')
+model = torch.load('./model/hash_network_16bits.pth')
 model.eval()
 
 database_labels = L_F.Load_label(opt.database_label, opt.dataroot)
