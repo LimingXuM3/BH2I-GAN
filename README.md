@@ -22,9 +22,9 @@ A test implementation for the paper "BH2I-GAN: Bidirectional Hash code-to-Image 
        
   3. Copy the model into your dir
   
-     cp netG*.pth ./model/
+     cp hash_network*.pth ./model/
      
-     cp netF*.pth ./model/
+     cp inverse_hash_network.pth ./model/
 
   4. Test for the retrieval performance of proposed BH2I-GAN
   
