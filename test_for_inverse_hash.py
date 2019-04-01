@@ -52,7 +52,7 @@ num_test = len(dset_test)
 test_loader = DataLoader(dset_test, batch_size=opt.batchsize, shuffle=False, num_workers=4)
 
 print('loading trained hash network...')
-model = torch.load('./model/netF_128bits.pth')
+model = torch.load('./model/inverse_hash_network_128bits.pth')
 model.eval()
 
 print('loading trained inverse hash network...')
