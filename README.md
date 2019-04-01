@@ -18,7 +18,7 @@ A test implementation for the paper "BH2I-GAN: Bidirectional Hash code-to-Image 
 
   1. Download pre-trained models from [BaiduNetdisk](https://pan.baidu.com/s/1z8lhFlAr3_YthTrNywMNtw). password: amwa.
 
-  2. Download partial test samples from [BaiduNetdisk](https://pan.baidu.com/s/1z8lhFlAr3_YthTrNywMNtw), then put all this data into corresponding dir and extract compressed files.
+  2. Download test samples from [BaiduNetdisk](https://pan.baidu.com/s/1z8lhFlAr3_YthTrNywMNtw), then put all this data into corresponding dir and extract compressed files.
        
   3. Copy the model into your dir
   
